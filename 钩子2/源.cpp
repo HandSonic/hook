@@ -34,4 +34,5 @@ int main()
 		FF();
 	//}
 	getchar();
+	getchar();
 }
