@@ -9,15 +9,14 @@ int main()
 	//cout << dll;
 	//getchar();
 	FF = (pfun)GetProcAddress(dll, "FFF");
-<<<<<<< HEAD
-=======
+
 	cout << FF << endl;
 	if (dll == NULL)
 	{
 		printf("The dll coulde not be found");
 		getchar();
 	}
->>>>>>> 1ceecd8... 3
+
 	if (FF == NULL)
 	{
 		printf("The Function coulde not be found");
