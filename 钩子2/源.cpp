@@ -9,6 +9,11 @@ int main()
 	//cout << dll;
 	//getchar();
 	FF = (pfun)GetProcAddress(dll, "FFF");
+	if (dll == NULL)
+	{
+		printf("The dll coulde not be found");
+		getchar();
+	}
 	if (FF == NULL)
 	{
 		printf("The Function coulde not be found");
