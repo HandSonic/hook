@@ -17,6 +17,7 @@ int main()
 		printf("The dll coulde not be found");
 		getchar();
 	}
+>>>>>>> 1ceecd8... 3
 	if (FF == NULL)
 	{
 		printf("The Function coulde not be found");
@@ -36,5 +37,7 @@ int main()
 	Sleep(5000);
 		FF();
 	//}
+	getchar();
+	getchar();
 	getchar();
 }
